@@ -1,0 +1,311 @@
+/* =============Common Style Part Start================= */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.heading-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: center;
+    
+}
+.para-title{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+#main-item{
+    width: calc(100% - 480px);
+    margin: 0 auto;
+}
+/* =============Common Style Part End================= */
+/* =================Navbar Part Start================= */
+.navbar{
+    padding: 37px 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-header-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-header{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 32px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+}
+.menu-icon i{
+    margin-right: 18px;
+}
+/* =================Navbar Part End================= */
+/* =================Banner Part Start============= */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+
+.banner-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-header{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-para{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-bottom: 17px;
+}
+.btn-one{
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    padding-top: 24px;
+}
+.btn-one a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-two{
+    padding: 20px 40px;
+    border-radius: 48px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    padding-top: 24px;
+    margin-left: 20px;
+}
+.btn-two a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner img{
+    width: 100%;
+}
+/* =================Banner Part End============= */
+/* ================We are gamer part start=============== */
+.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0 50px;
+}
+.gamer-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0;
+}
+.gaming-img img{
+    width: 100%;
+}
+.gaming-dsc{
+    text-align: right;
+}
+.gaming-dsc p{
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+.para-gamer{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.header-gamer{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.gamer-btn{
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    padding-top: 24px;
+}
+.gamer-btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* ================We are gamer part end=============== */
+/* ===================Online Games part start================== */
+.common-padd{
+    padding: 120px 0;
+}
+.card-container .card{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 48px;
+}
+/* ===================Online Games part end================== */
+/* ===================Play instantly part start================== */
+.instantly-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instantly-header{
+    text-align: center;
+}
+.instantly-img img{
+    width: 100%;
+}
+.img-button img{
+    width: 50%;
+}
+.img-button{
+    position: relative;
+    top: -250px;
+    left: -150px;
+}
+/* ===============Play instantly part end================ */
+
+/* ===============icon part start=============== */
+.icon-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    width: 1200px;
+    padding-bottom: 100px;
+}
+.icon-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    transition: all linear .4s;
+    
+}
+.icon-item:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    
+}
+
+/* ===============icon part start=============== */
+/* =================Footer Part Start================= */
+.footer{
+    background: #0B0223;
+    padding: 120px 0;
+}
+.white-color{
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.footer-container, .footer-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-menu p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 73px;
+    padding-bottom: 66px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.footer-para-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+.footer-para-container p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 34px;
+}
+.footer-para-container p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* =================Footer Part End================= */

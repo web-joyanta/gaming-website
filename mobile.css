@@ -1,0 +1,42 @@
+@media screen and (max-width: 576px) {
+.nav-container, .nav-menu, .nav-item, .gamer-container,  .online-games-container,.card-container{
+    flex-direction: column;
+}
+#main-item{
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+.nav-logo-header{
+    margin-bottom: 50px;
+}
+.nav-item li{
+    margin: 17px 0;
+}
+.menu-icon{
+    margin-top: 30px;
+}
+.banner-container{
+    flex-direction: column-reverse;
+    margin: 100px 0;
+    gap: 50px;
+}
+.gaming-dsc{
+    text-align: center;
+}
+.instantly-container{
+    flex-direction: column-reverse;
+}
+.img-button{
+    position: relative;
+    top: -150px;
+    left: -60px;
+}
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    width: auto;
+}
+.main-icon-item{
+    padding-top: 100px;
+}
+}
